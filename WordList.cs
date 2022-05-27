@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace cse210_03
 {
+    //This class holds all the possible words in a list.
     public class WordList
     {
         public List<string> wordsList = new List<string>();

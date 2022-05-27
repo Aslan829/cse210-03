@@ -4,13 +4,14 @@ using System.IO; // if want to read file
 
 namespace cse210_03
 {
-
+    //This holds a random word from the word list and the letter list.
     public class Words
     {
        private string word;
        public char[] letterList;
        public char[] blankList;
 
+        //This selects the word from the word list, and seperates it into a letter list. 
        public Words()
        {
             

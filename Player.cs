@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 namespace cse210_03
 {
+
+    //This holds the player parachute information.
     public class Player
     {
         public List<string> playerArray = new List<string>();
@@ -23,9 +25,7 @@ namespace cse210_03
              this.playerArray.Add(" ");
              this.playerArray.Add("^^^^^^^");
 
-           /* for (int i = 0; i < this.playerArray.Count; i++){
-                Console.WriteLine(this.playerArray[i]);
-            }*/
+           
             
         }
 

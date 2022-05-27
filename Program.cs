@@ -2,8 +2,10 @@
 
 namespace cse210_03
 {
+    //This is the main processing program.
     class Program
     {
+        //This connects and runs all the functions in each class.
         static void Main(string[] args)
         {
             Game game = new Game();

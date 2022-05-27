@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace cse210_03
 {
+    //Runs the processes needed for the game to run each round. 
     public class Game
     {
         public bool playRound(char[] letList, List<string> player, char[] blankList, bool isWin){
